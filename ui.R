@@ -23,7 +23,7 @@ shinyUI(
             HTML('is</h5>'),
             verbatimTextOutput("outputValue"),
             h5('and predicted value of MPG value based on the  model'),
-            HTML('<center><font size="4"><i>9.618-3.917*wt+1.226*qsec+2.936*am</i></font></center>'), 
+            HTML('<br><center><img src="model.png" width="500"></center><br>'),
             h5('is'),
             verbatimTextOutput("outputMPG"),
             HTML('<br><hr><b>Help:</b><br>Select the car from mtcars database in the select box on the left. Above will be shown the tech specs for the selected car and the actual and predicted value of Miles Per Gallon for selected car. The model for predicting the MPG value is based on my work for "Regression Models" course project.')   
